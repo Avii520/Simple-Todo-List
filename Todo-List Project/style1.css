@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #587094;
+}
+
+#container1 {
+    background: #414e41;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#container1 h1 {
+    color: rgb(253, 249, 249);
+    font-weight: normal;
+}
+
+#container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+#container3 {
+    background: white;
+    width: 520px;        
+    padding: 30px;       
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+
+#container3:hover {
+    box-shadow: 0 5px 10px;
+    transition: 0.5s;
+}
+
+#text {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#addbtn {
+    width: 100%;
+    padding: 8px;
+    background: #359638;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#addbtn:hover {
+    background: #3b913f;
+}
+
+#List {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#List li {
+    background: #f1f1f1;
+    padding: 8px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#List li button {
+    background: #dd3f3c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#List li button:hover {
+    background: #d32f2f;
+}
+
+#clrbtn {
+    padding: 8px 20px;
+    background: #da2929;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    margin: 10px auto 0;
+}
+
+#clrbtn:hover {
+    background: #c43a31;
+}
+
+#List li {
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    
+}
